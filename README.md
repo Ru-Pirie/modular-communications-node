@@ -84,8 +84,8 @@ A revision 2 design addressing these is in progress.
 
 ```
 /hardware
-  /schematics        # KiCad schematic files for all five modules
-  /layout            # PCB layout files
+  /kicad        # KiCad files for the entire project
+  /plots            # PCB plots
   /gerbers           # Fabrication outputs
 /firmware
   /openwrt           # OpenWRT image configurations and package lists
