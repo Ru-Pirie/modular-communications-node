@@ -1,16 +1,15 @@
 # Modular Communications Platform for Autonomous Mobile Robots
 
-A low-cost, open-source communications platform designed for beyond visual line of sight (BVLOS) operation of UAVs and ground-based robotic systems. Built around the Raspberry Pi Compute Module 5, the platform uses a customised PCIe backplane to support interchangeable communications modules — including cellular modems and high-speed breakouts — without the subscription costs or proprietary lock-in of existing solutions.
+A low-cost, open-source communications platform designed for beyond visual line of sight (BVLOS) operation of UAVs and ground-based robotic systems. Built around the Raspberry Pi Compute Module 5, the platform uses a customised PCIe backplane to support interchangeable communications modules including cellular modems and high-speed breakouts without the subscription costs or proprietary lock-in of existing solutions.
 
-> **[IMAGE: Photo of all five assembled PCB modules laid out together]**
-
+IMAGE HERE
 ---
 
 ## Overview
 
-Current BVLOS solutions — commercial platforms like the Elsight Halo or high-end options from Silvus and Doodle Labs — are either cloud-subscription dependent or oriented toward defence procurement budgets. This project bridges the gap between hobbyist hardware and serious communications infrastructure using commercial off-the-shelf (COTS) components.
+Current BVLOS solutions, commercial platforms like the Elsight Halo or high-end options from Silvus and Doodle Labs, are either cloud-subscription dependent or oriented toward defence procurement budgets. This project bridges the gap between hobbyist hardware and serious communications infrastructure using commercial off-the-shelf (COTS) and hobbyist components.
 
-The platform was developed and validated as part of a BEng Electrical and Electronic Engineering project at the University of Southampton, with real-world testing carried out in collaboration with the [Flare-X team](https://www.xprize.org) competing in the XPRIZE Wildfire Competition.
+The platform was developed and validated as part of a BEng Electrical and Electronic Engineering project at the University of Southampton.
 
 ---
 
