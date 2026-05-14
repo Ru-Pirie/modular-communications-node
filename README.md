@@ -29,7 +29,7 @@ Each module connects via a custom-keyed PCIe connector chosen for its current ca
 
 ### Module Interface
 
-Modules are keyed as shown below, with power connections consistent across all connector types and GPIO/high-speed lanes varying by module role:
+Modules are keyed as shown below, with power connections consistent across all connector types and GPIO/high-speed lanes varying by module role, use the following as a rough design guideline should you want to implement your own boards:
 
 | Connector | Role |
 |-----------|------|
@@ -37,7 +37,9 @@ Modules are keyed as shown below, with power connections consistent across all c
 | PCIe x2 | Cellular / breakout modules |
 | PCIe x3 | Compute module |
 
-![Connector Specification]
+| x1 | x2 | x3 |
+|----|----|----|
+| ![](/docs/images/PwrPCI.png) | ![](/docs/images/ModPCI.png) | ![](/docs/images/ComPCI.png) |
 
 ---
 
@@ -106,7 +108,7 @@ For software setup, refer to the OpenWRT configuration in `/firmware/openwrt`. A
 
 ## Bill of Materials
 
-A full BOM with part numbers, suppliers, and approximate costs is available in [docs/bom.md](docs/bom.md). The design prioritises COTS availability — all critical components can be sourced through standard distributors (Farnell, Mouser, DigiKey).
+A full BOM with part numbers, suppliers, and approximate costs is available in [docs/bom.md](docs/bom.md). The design prioritises component availability and flexability, all critical components can be sourced through standard distributors (Farnell, Mouser, DigiKey) or can be substituted entirely dependent on usecase.
 
 ---
 
