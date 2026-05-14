@@ -2,7 +2,7 @@
 
 A low-cost, open-source communications platform designed for beyond visual line of sight (BVLOS) operation of UAVs and ground-based robotic systems. Built around the Raspberry Pi Compute Module 5, the platform uses a customised PCIe backplane to support interchangeable communications modules including cellular modems and high-speed breakouts without the subscription costs or proprietary lock-in of existing solutions.
 
-IMAGE HERE
+![Full image stack](/docs/images/stack.png)
 ---
 
 ## Overview
@@ -37,7 +37,7 @@ Modules are keyed as shown below, with power connections consistent across all c
 | PCIe x2 | Cellular / breakout modules |
 | PCIe x3 | Compute module |
 
-> **[IMAGE: Interface guide diagram showing per-pin associations across connector types]**
+![Connector Specification]
 
 ---
 
