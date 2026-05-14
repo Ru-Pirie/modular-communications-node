@@ -16,7 +16,7 @@ The platform was developed and validated as part of a BEng Electrical and Electr
 
 ## Hardware Architecture
 
-The system is composed of five PCBs that connect through a shared backplane:
+The system is composed of five PCBs that connect through a shared backplane, these are only the ones developed for this project, you could expand and add to this ecosystem as you see fit. Imagination is the limit (and the laws of physics)
 
 - **Power Supply Module** — Wide-input (6.2–80V) synchronous buck converter based on the LM5146, with polarity-agnostic inputs, dual power-ORing, and TVS transient protection. Rated 5V at 10A (50W continuous).
 - **Compute Module** — Carrier board for the Raspberry Pi CM5, exposing USB 3, Ethernet, GPIO expansion, and high-density PCIe interfaces.
@@ -103,21 +103,21 @@ A revision 2 design addressing these is in progress.
 
 Hardware fabrication files are located in `/hardware/gerbers`. The design uses standard 1.6mm four-layer PCBs and is compatible with common PCB manufacturers (JLCPCB, PCBWay, etc.).
 
-For software setup, refer to the OpenWRT configuration in `/firmware/openwrt`. A pre-built image can be flashed directly to the CM5; see the [firmware guide](docs/firmware.md) for instructions.
+For software setup, refer to the OpenWRT configuration in `/firmware/openwrt`. A pre-built image can be flashed directly to the CM5, for other compute boards for complete instructions see the OpenWRT repository [here](https://github.com/openwrt/openwrt).
 
-> **[IMAGE: Photo of assembled platform mounted in a UAV or on a test bench]**
+![](/docs/images/setup.png)
 
 ---
 
 ## Bill of Materials
 
-A full BOM with part numbers, suppliers, and approximate costs is available in [docs/bom.md](docs/bom.md). The design prioritises component availability and flexability, all critical components can be sourced through standard distributors (Farnell, Mouser, DigiKey) or can be substituted entirely dependent on usecase.
+A full BOM with part numbers, suppliers, and approximate costs will be available in [docs/bom.md](docs/bom.md). The design prioritises component availability and flexability, all critical components can be sourced through standard distributors (Farnell, Mouser, DigiKey) or can be substituted entirely dependent on usecase.
 
 ---
 
 ## Contributing
 
-Contributions are welcome, particularly around:
+Contributions are welcome, and encoraged! The next steps I will be persuing in this project are towards:
 
 - Additional communications module designs (802.11ah/af, LoRa, SDR breakouts)
 - OpenWRT package configurations and deployment tooling
